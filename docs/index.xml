@@ -41,7 +41,9 @@
       <link>/cv/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/cv/</guid>
-      <description></description>
+      <description>&lt;p&gt;You can view my CV 
+.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -49,7 +51,24 @@
       <link>/phd_thesis/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/phd_thesis/</guid>
-      <description></description>
+      <description>&lt;p&gt;Check out my PhD thesis, titled 
+.&lt;/p&gt;
+&lt;!-- ![Thesis Cover](https://liu.diva-portal.org/smash/get/diva2:1894492/PREVIEW01.png) --&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=&#34;https://liu.diva-portal.org/smash/get/diva2:1894492/FULLTEXT02.pdf&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;https://liu.diva-portal.org/smash/get/diva2:1894492/PREVIEW01.png)&#34; alt=&#34;Thesis Cover&#34; style=&#34;max-width:50%; height:auto;&#34; /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/</guid>
+      <description>&lt;p&gt;Feel free to explore my 
+, which includes projects from both my Master’s and PhD research.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -57,15 +76,9 @@
       <link>/publications/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>/projects/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>/projects/</guid>
-      <description></description>
+      <description>&lt;p&gt;You can view my publications on 
+.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -331,7 +344,7 @@
 
 
 
-&lt;div id=&#34;chart-971243685&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-896137452&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -349,7 +362,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-971243685&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-896137452&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -641,14 +654,6 @@ data.head()
   &lt;/span&gt; Python&lt;/p&gt;
 &lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Experience</title>
-      <link>/experience/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/experience/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -1045,10 +1050,53 @@ Parallel 4   :         des6, after des4, 1d
     </item>
     
     <item>
-      <title>Test Page</title>
-      <link>/test/</link>
+      <title></title>
+      <link>/drafts/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/test/</guid>
+      <guid>/drafts/experience/</guid>
+      <description>&lt;!-- ---
+title: &#39;Experience&#39;
+date: 2023-10-24
+type: landing
+
+design:
+  spacing: &#39;5rem&#39;
+
+# Note: `username` refers to the user&#39;s folder name in `content/authors/`
+
+# Page sections
+sections:
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: &#39;January 2006&#39;
+      # Education or Experience section first?
+      is_education_first: false
+  - block: resume-skills
+    content:
+      title: Skills &amp; Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+  - block: resume-awards
+    content:
+      title: Awards
+      username: admin
+  - block: resume-languages
+    content:
+      title: Languages
+      username: admin
+--- --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test Page</title>
+      <link>/drafts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/drafts/test/</guid>
       <description></description>
     </item>
     

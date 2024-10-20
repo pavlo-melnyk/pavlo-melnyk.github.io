@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts | Pavlo Melnyk</title>
+    <link>/drafts/</link>
+      <atom:link href="/drafts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drafts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/icon_hu10934838655842282239.png</url>
+      <title>Drafts</title>
+      <link>/drafts/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/drafts/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/drafts/experience/</guid>
+      <description>&lt;!-- ---
+title: &#39;Experience&#39;
+date: 2023-10-24
+type: landing
+
+design:
+  spacing: &#39;5rem&#39;
+
+# Note: `username` refers to the user&#39;s folder name in `content/authors/`
+
+# Page sections
+sections:
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: &#39;January 2006&#39;
+      # Education or Experience section first?
+      is_education_first: false
+  - block: resume-skills
+    content:
+      title: Skills &amp; Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+  - block: resume-awards
+    content:
+      title: Awards
+      username: admin
+  - block: resume-languages
+    content:
+      title: Languages
+      username: admin
+--- --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test Page</title>
+      <link>/drafts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/drafts/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

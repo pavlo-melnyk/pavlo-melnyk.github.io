@@ -22,12 +22,12 @@
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publications/</loc>
+    <loc>/projects/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/projects/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <loc>/publications/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/get-started/</loc>
@@ -91,10 +91,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/teach-courses/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -166,7 +162,13 @@
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/test/</loc>
+    <loc>/drafts/experience/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/drafts/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/drafts/test/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
