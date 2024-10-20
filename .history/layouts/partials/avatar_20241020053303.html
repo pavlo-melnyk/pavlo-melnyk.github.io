@@ -1,0 +1,8 @@
+{{ if .Site.Params.avatar }}
+{{ $avatar := resources.Get .Site.Params.avatar }}
+{{ $resizedAvatar := $avatar.Resize "400x400" }} <!-- Adjust the size as needed -->
+  <img src="{{ $resizedAvatar.Permalink }}" alt="Avatar" style="border-radius: 50%; margin-bottom: 20px;">
+{{ else }}
+<!-- Fallback content if no avatar is defined -->
+  <p>No avatar defined.</p>
+{{ end }}

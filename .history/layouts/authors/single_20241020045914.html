@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/css/custom.css"> <!-- Link to your custom styles -->
+</head>
+<body>
+  <div class="container">
+    <!-- Display the avatar if it exists in the front matter -->
+    {{ if .Params.avatar }}
+      <img src="{{ .Params.avatar }}" alt="{{ .Title }}" style="max-width: 150px; border-radius: 50%; margin-bottom: 20px;">
+    {{ end }}
+
+    <!-- Display the author's name, role, and organization -->
+    <h1>{{ .Title }}</h1>
+    <h2>{{ .Params.role }}</h2>
+    <p>{{ .Params.organizations | first }}</p> <!-- This assumes organizations is an array -->
+    
+    <!-- Main content -->
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+
+  <!-- Optional footer or additional content goes here -->
+</body>
+</html>

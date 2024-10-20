@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ .Title }}</h1>
+
+    <!-- Display avatar if it's set in params -->
+    {{ if .Site.Params.avatar }}
+      <img src="{{ .Site.Params.avatar }}" alt="Avatar" style="width: 200px; border-radius: 50%;">
+    {{ else }}
+      <p>No avatar defined</p>
+    {{ end }}
+
+  </header>
+
+  <main>
+    {{ .Content }}
+  </main>
+</body>
+</html>

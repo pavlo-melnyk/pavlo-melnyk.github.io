@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+</head>
+<body>
+  <h1>{{ .Title }}</h1>
+  <p>This is the custom layout!</p>
+
+  <!-- Display Avatar (if defined in Params) -->
+  {{ if .Site.Params.avatar }}
+    <img src="{{ .Site.Params.avatar }}" alt="Avatar" style="width: 200px; height: auto;">
+  {{ else }}
+    <p>No avatar found in Params</p>
+  {{ end }}
+
+  <div>{{ .Content }}</div>
+</body>
+</html>

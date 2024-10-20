@@ -1,0 +1,4 @@
+---
+title: 'PhD Thesis'
+date: 2024-10-20
+---
