@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: CV
-    url: /uploads/pavlo_melnyk_cv.pdf
+    url: /uploads/pavlo_melnyk_CV.pdf
     weight: 11
   - name: PhD Thesis
     url: https://doi.org/10.3384/9789180756808
