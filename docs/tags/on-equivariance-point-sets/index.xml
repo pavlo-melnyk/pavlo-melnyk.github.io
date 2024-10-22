@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O(n)-Equivariance, Point Sets | Pavlo Melnyk</title>
+    <link>/tags/on-equivariance-point-sets/</link>
+      <atom:link href="/tags/on-equivariance-point-sets/index.xml" rel="self" type="application/rss+xml" />
+    <description>O(n)-Equivariance, Point Sets</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu10934838655842282239.png</url>
+      <title>O(n)-Equivariance, Point Sets</title>
+      <link>/tags/on-equivariance-point-sets/</link>
+    </image>
+    
+    <item>
+      <title>O$n$ Learning Deep O$(n)$ Equivariant Hyperspheres</title>
+      <link>/publication/equihypers/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/equihypers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
