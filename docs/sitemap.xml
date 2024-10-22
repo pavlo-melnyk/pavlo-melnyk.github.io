@@ -122,6 +122,10 @@
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/teaching/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/post/teach-courses/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -143,10 +147,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tags/python/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/teaching/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -178,14 +178,22 @@
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/source-themes/</loc>
+    <loc>/tags/cnns/</loc>
+    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/handwritten-character-recognition/</loc>
+    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/ocr/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/drafts/experience/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publications/</loc>
+    <loc>/drafts/publications/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/drafts/</loc>
