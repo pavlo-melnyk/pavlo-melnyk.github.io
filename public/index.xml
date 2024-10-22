@@ -72,6 +72,16 @@
     </item>
     
     <item>
+      <title>Publications</title>
+      <link>//localhost:1313/publications/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publications/</guid>
+      <description>&lt;p&gt;You can view all my publications on 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>O$n$ Learning Deep O$(n)$ Equivariant Hyperspheres</title>
       <link>//localhost:1313/publication/equihypers/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
@@ -1058,20 +1068,6 @@ sections:
       username: admin
 --- --&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//localhost:1313/drafts/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/drafts/publications/</guid>
-      <description>&lt;!-- ---
-title: Publications
-date: 2024-10-20
-share: false
----
-
-You can view my publications on [Google Scholar](https://scholar.google.com/citations?user=RhThiI8AAAAJ&amp;hl=en). --&gt;</description>
     </item>
     
     <item>

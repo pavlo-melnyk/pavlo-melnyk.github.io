@@ -26,6 +26,10 @@
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/publications/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/tags/equivariance/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -191,9 +195,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/drafts/experience/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/drafts/publications/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/drafts/</loc>

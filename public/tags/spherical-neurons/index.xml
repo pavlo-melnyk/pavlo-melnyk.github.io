@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spherical Neurons | Pavlo Melnyk</title>
-    <link>//localhost:1313/tags/spherical-neurons/</link>
-      <atom:link href="//localhost:1313/tags/spherical-neurons/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/spherical-neurons/</link>
+      <atom:link href="/tags/spherical-neurons/index.xml" rel="self" type="application/rss+xml" />
     <description>Spherical Neurons</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
+      <url>/media/icon_hu10934838655842282239.png</url>
       <title>Spherical Neurons</title>
-      <link>//localhost:1313/tags/spherical-neurons/</link>
+      <link>/tags/spherical-neurons/</link>
     </image>
     
     <item>
       <title>O$n$ Learning Deep O$(n)$ Equivariant Hyperspheres</title>
-      <link>//localhost:1313/publication/equihypers/</link>
+      <link>/publication/equihypers/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/equihypers/</guid>
+      <guid>/publication/equihypers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Steerable 3D Spherical Neurons</title>
-      <link>//localhost:1313/publication/steerneur/</link>
+      <link>/publication/steerneur/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/steerneur/</guid>
+      <guid>/publication/steerneur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Embed Me If You Can: A Geometric Perceptron</title>
-      <link>//localhost:1313/publication/embedme/</link>
+      <link>/publication/embedme/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/embedme/</guid>
+      <guid>/publication/embedme/</guid>
       <description></description>
     </item>
     

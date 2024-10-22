@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conformal Embedding | Pavlo Melnyk</title>
-    <link>//localhost:1313/tags/conformal-embedding/</link>
-      <atom:link href="//localhost:1313/tags/conformal-embedding/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/conformal-embedding/</link>
+      <atom:link href="/tags/conformal-embedding/index.xml" rel="self" type="application/rss+xml" />
     <description>Conformal Embedding</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
+      <url>/media/icon_hu10934838655842282239.png</url>
       <title>Conformal Embedding</title>
-      <link>//localhost:1313/tags/conformal-embedding/</link>
+      <link>/tags/conformal-embedding/</link>
     </image>
     
     <item>
       <title>Embed Me If You Can: A Geometric Perceptron</title>
-      <link>//localhost:1313/publication/embedme/</link>
+      <link>/publication/embedme/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/embedme/</guid>
+      <guid>/publication/embedme/</guid>
       <description></description>
     </item>
     
