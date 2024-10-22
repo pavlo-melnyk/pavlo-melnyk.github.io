@@ -26,7 +26,7 @@
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/on-equivariance-point-sets/</loc>
+    <loc>/tags/equivariance/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -38,6 +38,10 @@
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tags/point-sets/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication_types/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -46,11 +50,15 @@
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tags/spherical-neurons/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/point-clouds-o3-invariance/</loc>
+    <loc>/tags/point-clouds/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -146,7 +154,7 @@
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/equivariant-neurons-steerability/</loc>
+    <loc>/tags/steerability/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -154,11 +162,11 @@
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication/embedme/</loc>
+    <loc>/tags/conformal-embedding/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/spherical-neurons-conformal-embedding/</loc>
+    <loc>/publication/embedme/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
