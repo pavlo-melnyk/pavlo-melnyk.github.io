@@ -1,0 +1,23 @@
+<script data-goatcounter="https://pavlomelnyk.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+                // Function to handle menu item clicks
+                function handleMenuItemClick() {
+                // Find the menu button/toggle (usually has aria-label="Toggle navigation menu")
+                const menuButton = document.querySelector('button[aria-label="Toggle navigation menu"]');
+                if (menuButton) {
+                        // Trigger a click on the menu button to close the menu
+                        menuButton.click();
+                }
+                }
+        
+                // Add click handlers to all navigation menu items
+                const menuItems = document.querySelectorAll('nav a');
+                menuItems.forEach(item => {
+                item.addEventListener('click', handleMenuItemClick);
+                });
+        });
+</script>

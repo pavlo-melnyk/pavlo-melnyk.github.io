@@ -1,0 +1,25 @@
+<script data-goatcounter="https://pavlomelnyk.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Function to handle menu item clicks
+                    function handleMenuItemClick() {
+                        // Find the checkbox input that controls the menu
+                        const menuToggle = document.getElementById('nav-toggle');
+                        if (menuToggle) {
+                            menuToggle.checked = false;
+                        }
+                    }
+                
+                    // Add click handlers to all navigation menu items in the mobile menu
+                    const navMenu = document.getElementById('nav-menu');
+                    if (navMenu) {
+                        const menuItems = navMenu.getElementsByTagName('a');
+                        Array.from(menuItems).forEach(item => {
+                            item.addEventListener('click', handleMenuItemClick);
+                        });
+                    }
+                });
+</script>
