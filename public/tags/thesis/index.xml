@@ -5,12 +5,27 @@
     <link>//localhost:1313/tags/thesis/</link>
       <atom:link href="//localhost:1313/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
     <description>Thesis</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
       <title>Thesis</title>
       <link>//localhost:1313/tags/thesis/</link>
     </image>
+    
+    <item>
+      <title>PhD Thesis</title>
+      <link>//localhost:1313/phd_thesis/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/phd_thesis/</guid>
+      <description>&lt;p&gt;Explore my PhD thesis, titled 
+, which I defended with 
+ serving as an opponent.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=&#34;https://liu.diva-portal.org/smash/get/diva2:1894492/FULLTEXT02.pdf&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;https://liu.diva-portal.org/smash/get/diva2:1894492/PREVIEW01.png)&#34; alt=&#34;Thesis Cover&#34; style=&#34;max-width:50%; height:auto;&#34; /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My PhD Defense</title>
