@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 5, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: February 9, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -66,7 +66,7 @@
 
   
     
-    <link href="/css/custom.min.09ac82d4aba6c0a79a9414fb471e9a85b7e7b2a2e711dbbf205754193f2a1f17.css" rel="stylesheet" />
+    <link href="/css/custom.min.f2b3e52afd824cd463af3072aed6117d73159a433597fc9e5c01db16ea7198fa.css" rel="stylesheet" />
   
 
   <script>
@@ -518,6 +518,29 @@
       
       <script data-goatcounter="https://pavlomelnyk.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+                
+                function handleMenuItemClick() {
+                
+                const menuToggle = document.getElementById('nav-toggle');
+                if (menuToggle) {
+                        menuToggle.checked = false;
+                }
+                }
+
+                
+                const navMenu = document.getElementById('nav-menu');
+                if (navMenu) {
+                const menuItems = navMenu.getElementsByTagName('a');
+                Array.from(menuItems).forEach(item => {
+                        item.addEventListener('click', handleMenuItemClick);
+                });
+                }
+        });
+</script>
       
     
   
