@@ -1,0 +1,229 @@
+
+.resume-biography {
+    #profile {
+      text-align: center;
+      padding: 30px 10px;
+      position: relative;
+      font-family: 'Roboto', sans-serif;
+    }
+  
+    /* Custom avatar size on homepage */
+  
+    .avatar {
+      width: auto;
+      height: auto;
+      max-width: 250px;
+      max-height: 250px;
+      object-fit: cover;
+    }
+  
+    .network-icon {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    #profile .network-icon {
+      margin-top: 0.5rem;
+    }
+  
+    .network-icon li {
+      margin-right: 10px;
+      @media (max-width: 640px) {
+        /* Min 48px Lighthouse tap targets on mobile */
+        margin-right: 12px;
+      }
+    }
+  
+    .network-icon li:last-of-type {
+      margin-right: 0;
+    }
+  
+    .network-icon li:hover {
+      transform: scale(1.2);
+    }
+  
+    .big-icon {
+      font-size: 2rem;
+    }
+  
+    .ul-interests li {
+      font-size: 0.9rem;
+    }
+  
+   /* .ul-edu { */
+   /*   list-style: none; */
+   /* } */
+  
+   /* .ul-edu li { */
+   /*   position: relative; */
+   /*   padding: 0 15px 4px 3px; */
+   /* } */
+  
+   /* .ul-edu li .description p { */
+   /*   margin: 0; */
+   /* } */
+  
+    .ul-edu li .description p.course {
+      font-size: 0.9rem;
+    }
+  
+    .ul-edu li .description p.institution {
+      font-size: 0.75rem;
+  
+      /* color: rgba(0, 0, 0, 0.6); */
+    }
+  
+    .network-icon .big-icon {
+      font-size: 1.5rem;
+    }
+  
+    /* .dark .portrait-title h3 { */
+    /*  color: rgb(255 255 255 / 90%); */
+    /*  font-weight: bold; */
+    /* } */
+  
+    /* .dark .portrait-title h2 { */
+    /*  color: #fff; */
+    /*  font-weight: bold; */
+    /* } */
+  
+    .bio-text {
+      max-width: 680px;
+    }
+  }
+  
+  .avatar-wrapper {
+    position: relative;
+    width: 250px; /* Match image size in about.avatar widget */
+    height: 250px;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  
+  .avatar-emoji {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    color: #000; /* override parent alpha */
+    box-shadow: 0 10px 20px rgb(0 0 0 / 4%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(0 0 0 / 4%);
+  }
+  
+  
+  .dark .avatar-emoji {
+    background-color: #000;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 4%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(255 255 255 / 96%);
+  }
+  
+
+
+/* News section */
+/* Title */
+.text-zinc-800.dark\:text-zinc-100 {
+  font-size: 1.2rem !important;
+}
+
+/* Date */
+.text-zinc-400.dark\:text-zinc-500 {
+  font-size: 1.1rem !important;
+}
+
+/* Description text */
+.text-zinc-600.dark\:text-zinc-400 {
+  font-size: 1.1rem !important;
+}
+
+/* Read more link */
+.text-primary-500 {
+  font-size: 1.1rem !important;
+}
+
+/* body {
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+} */
+
+/* Target the grid container */
+.grid.grid-cols-1.md\:grid-cols-2.gap-4.justify-between.mt-6.dark\:text-gray-300 {
+  grid-template-columns: 247px auto;  /* Sets first column to _px and second to auto */
+  gap: 1rem;  /* Adjusts spacing between columns */
+}
+
+/* For mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .grid.grid-cols-1.md\:grid-cols-2.gap-4.justify-between.mt-6.dark\:text-gray-300 {
+      grid-template-columns: 1fr;  /* Single column on mobile */
+  }
+}
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
+        
+        <li>
+          Geometric Deep Learning
+        </li>
+        
+        <li>
+          Computer Vision
+        </li>
+        
+        <li>
+          AI for Science
+        </li>
+        
+        <li>
+          AI for Good
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class="flex-shrink-0 w-5 h-5 me-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"></path></svg>
+          <div class="description">
+            <p class="course">PhD Computer Vision</p>
+            <p class="text-sm">Linköping University, Sweden</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class="flex-shrink-0 w-5 h-5 me-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"></path></svg>
+          <div class="description">
+            <p class="course">MEng Comp Science and Technology</p>
+            <p class="text-sm">Hunan University, China</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class="flex-shrink-0 w-5 h-5 me-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"></path></svg>
+          <div class="description">
+            <p class="course">BEng Information Security Systems</p>
+            <p class="text-sm">DonNTU, Ukraine</p>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
