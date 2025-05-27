@@ -2,16 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/academic/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/phd/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/post/phd-graduation/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/cv/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/phd/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/phd_thesis/</loc>
@@ -26,19 +42,7 @@
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/academic/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/post/phd-defense/</loc>
-    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

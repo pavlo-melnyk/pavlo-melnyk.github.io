@@ -5,7 +5,7 @@
     <link>//localhost:1313/post/</link>
       <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
       <title>News</title>
@@ -13,7 +13,24 @@
     </image>
     
     <item>
-      <title>My PhD Defense</title>
+      <title>PhD Graduation Ceremony</title>
+      <link>//localhost:1313/post/phd-graduation/</link>
+      <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/phd-graduation/</guid>
+      <description>&lt;div style=&#34;display: flex; justify-content: center; gap: 10px;&#34;&gt;
+&lt;img src=&#34;ceremony1.jpg&#34; alt=&#34;with Jensen Huang&#34; style=&#34;width:auto; height:auto; max-width: 50%; max-height: 50%;&#34; /&gt;
+&lt;img src=&#34;ceremony2.jpg&#34; alt=&#34;PhD graduation ceremony&#34; style=&#34;width:auto; height:auto; max-width: 50%; max-height: 50%;&#34; /&gt;
+&lt;/div&gt;
+&lt;p&gt;I had the honor of participating in the 
+ following the centuries-old tradition. It was exciting to share the stage with so many amazing people, including 
+.&lt;/p&gt;
+&lt;p&gt;I am grateful to Linköping University, 
+, and my supervisor Prof. Michael Felsberg for making all this possible and for all the wonderful support throughout this journey.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhD Defense</title>
       <link>//localhost:1313/post/phd-defense/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/post/phd-defense/</guid>
