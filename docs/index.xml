@@ -90,6 +90,29 @@ A selection is presented
     </item>
     
     <item>
+      <title>Spherical NeurO($n$)s for Geometric Deep Learning</title>
+      <link>/publication/thesis/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/thesis/</guid>
+      <description>&lt;!-- &lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;thesis_cover.png&#34; alt=&#34;Thesis Cover&#34; style=&#34;max-width:50%; height:auto;&#34; /&gt;
+&lt;/p&gt; --&gt;
+&lt;style&gt;
+.page-header .featured-image img,
+/* .article-container .featured-image img, */
+div[class*=&#34;featured&#34;] img {
+  max-width: 50% !important;
+  width: 50% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Felix Klein’s Erlangen Programme of 1872 introduced a methodology to unify non-Euclidean geometries. Similarly, geometric deep learning (GDL) constitutes a unifying framework for various neural network architectures. GDL is built from the first principles of geometry—symmetry and scale separation—and enables tractable learning in high dimensions. Symmetries play a vital role in preserving structural information of geometric data and allow models (i.e., neural networks) to adjust to different geometric transformations.\n\nIn this context, spheres exhibit a maximal set of symmetries compared to other geometric entities in Euclidean space. The orthogonal group O(n) fully encapsulates the symmetry structure of an nD sphere, including both rotational and reflection symmetries. In this thesis, we focus on integrating these symmetries into a model as an inductive bias, which is a crucial requirement for addressing problems in 3D vision as well as in natural sciences and their related applications.\n\nIn Paper A, we focus on 3D geometry and use the symmetries of spheres as geometric entities to construct neurons with spherical decision surfaces—spherical neurons—using a conformal embedding of Euclidean space. We also demonstrate that spherical neuron activations are non-linear due to the inherent non-linearity of the input embedding, and thus, do not necessarily require an activation function. In addition, we show graphically, theoretically, and experimentally that spherical neuron activations are isometries in Euclidean space, which is a prerequisite for the equivariance contributions of our subsequent work.\n\nIn Paper B, we closely examine the isometry property of the spherical neurons in the context of equivariance under 3D rotations (i.e., SO(3)-equivariance). Focusing on 3D in this work and based on a minimal set of four spherical neurons (one learned spherical decision surface and three copies), the centers of which are rotated into the corresponding vertices of a regular tetrahedron, we construct a spherical filter bank. We call it a steerable 3D spherical neuron because, as we verify later, it constitutes a steerable filter. Finally, we derive a 3D steerability constraint for a spherical neuron (i.e., a single spherical decision surface).\n\nIn Paper C, we present a learnable point-cloud descriptor invariant under 3D rotations and reflections, i.e., the O(3) actions, utilizing the steerable 3D spherical neurons we introduced previously, as well as vector neurons from related work. Specifically, we propose an embedding of the 3D steerable neurons into 4D vector neurons, which leverages end-to-end training of the model. The resulting model, termed TetraSphere, sets a new state-of-the-art performance classifying randomly rotated real-world object scans. Thus, our results reveal the practical value of steerable 3D spherical neurons for learning in 3D Euclidean space.\n\nIn Paper D, we generalize to nD the concepts we previously established in 3D, and propose O(n)-equivariant neurons with spherical decision surfaces, which we call Deep Equivariant Hyper-spheres. We demonstrate how to combine them in a network that directly operates on the basis of the input points and propose an invariant operator based on the relation between two points and a sphere, which as we show, turns out to be a Gram matrix.\n\nIn summary, this thesis introduces techniques based on spherical neurons that enhance the GDL framework, with a specific focus on equivariant and invariant learning on point sets. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>O$n$ Learning Deep O$(n)$ Equivariant Hyperspheres</title>
       <link>/publication/equihypers/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
@@ -104,6 +127,15 @@ A selection is presented
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       <guid>/publication/tetrasphere/</guid>
       <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; In many practical applications 3D point cloud analysis requires rotation invariance. In this paper we present a learnable descriptor invariant under 3D rotations and reflections i.e. the O(3) actions utilizing the recently introduced steerable 3D spherical neurons and vector neurons. Specifically we propose an embedding of the 3D spherical neurons into 4D vector neurons which leverages end-to-end training of the model. In our approach we perform TetraTransform&amp;mdash;an equivariant embedding of the 3D input into 4D constructed from the steerable neurons&amp;mdash;and extract deeper O(3)-equivariant features using vector neurons. This integration of the TetraTransform into the VN-DGCNN framework termed TetraSphere negligibly increases the number of parameters by less than 0.0002%. TetraSphere sets a new state-of-the-art performance classifying randomly rotated real-world object scans of the challenging subsets of ScanObjectNN. Additionally TetraSphere outperforms all equivariant methods on randomly rotated synthetic data: classifying objects from ModelNet40 and segmenting parts of the ShapeNet shapes. Thus our results reveal the practical value of steerable 3D spherical neurons for learning in 3D Euclidean space. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning to Augment: Hallucinating Data for Domain Generalized Segmentation</title>
+      <link>/publication/learn2aug/</link>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/learn2aug/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Domain generalized semantic segmentation (DGSS) is an essential but highly challenging task, in which the model is trained only on source data and any target data is not available. Existing DGSS methods primarily standardize the feature distribution or utilize extra domain data for augmentation. However, the former sacrifices valuable information and the latter introduces domain biases. Therefore, generating diverse-style source data without auxiliary data emerges as an attractive strategy. In light of this, we propose GAN-based feature augmentation (GBFA) that hallucinates stylized feature maps while preserving their semantic contents with a feature generator. The impressive generative capability of GANs enables GBFA to perform inter-channel and trainable feature synthesis in an end-to-end framework. To enable learning GBFA, we introduce random image color augmentation (RICA), which adds a diverse range of variations to source images during training. These augmented images are then passed through a feature extractor to obtain features tailored for GBFA training. Both GBFA and RICA operate exclusively within the source domain, eliminating the need for auxiliary datasets. We conduct extensive experiments, and the generalization results from the synthetic GTAV and SYNTHIA to the real Cityscapes, BDDS, and Mapillary datasets show that our method achieves state-of-the-art performance in DGSS. &lt;/span&gt;&lt;/p&gt;
 </description>
     </item>
     

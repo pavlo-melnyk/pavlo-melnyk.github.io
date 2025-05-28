@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Augmentation | Pavlo Melnyk</title>
+    <link>//localhost:1313/tags/augmentation/</link>
+      <atom:link href="//localhost:1313/tags/augmentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Augmentation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
+      <title>Augmentation</title>
+      <link>//localhost:1313/tags/augmentation/</link>
+    </image>
+    
+    <item>
+      <title>A High-Performance CNN Method for Offline Handwritten Chinese Character Recognition and Visualization</title>
+      <link>//localhost:1313/publication/learn2aug/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/learn2aug/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Domain generalized semantic segmentation (DGSS) is an essential but highly challenging task, in which the model is trained only on source data and any target data is not available. Existing DGSS methods primarily standardize the feature distribution or utilize extra domain data for augmentation. However, the former sacrifices valuable information and the latter introduces domain biases. Therefore, generating diverse-style source data without auxiliary data emerges as an attractive strategy. In light of this, we propose GAN-based feature augmentation (GBFA) that hallucinates stylized feature maps while preserving their semantic contents with a feature generator. The impressive generative capability of GANs enables GBFA to perform inter-channel and trainable feature synthesis in an end-to-end framework. To enable learning GBFA, we introduce random image color augmentation (RICA), which adds a diverse range of variations to source images during training. These augmented images are then passed through a feature extractor to obtain features tailored for GBFA training. Both GBFA and RICA operate exclusively within the source domain, eliminating the need for auxiliary datasets. We conduct extensive experiments, and the generalization results from the synthetic GTAV and SYNTHIA to the real Cityscapes, BDDS, and Mapillary datasets show that our method achieves state-of-the-art performance in DGSS. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
