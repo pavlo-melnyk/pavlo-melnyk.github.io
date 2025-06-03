@@ -347,6 +347,7 @@
       "place-self-center",
       "portrait-title",
       "powered-by",
+      "pr-1",
       "pr-2",
       "pr-4",
       "pr-[calc(env(safe-area-inset-right)-1.5rem)]",
