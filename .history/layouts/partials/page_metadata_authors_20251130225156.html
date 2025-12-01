@@ -1,0 +1,30 @@
+{{/* layouts/partials/page_metadata_authors.html */}}
+
+{{ $page := . }}
+{{ $authors := $page.Params.authors }}
+{{ $notes := $page.Params.author_notes }}
+
+{{ range $i, $id := $authors }}
+  {{- if gt $i 0 }}, {{ end -}}
+
+  {{/* Look up author profile under content/authors/<id> */}}
+  {{ $profile := $.Site.GetPage (printf "/authors/%s" $id) }}
+
+  {{ if $profile }}
+    {{ $name := $profile.Params.name | default $profile.Title | default $id }}
+    <a href="{{ $profile.RelPermalink }}">{{ $name }}</a>
+  {{ else }}
+    {{/* Fallback: just show the raw ID */}}
+    {{ $id }}
+  {{ end }}
+
+  {{/* Attach author_notes[i] as a star with tooltip, if present */}}
+  {{ with $notes }}
+    {{ with (index . $i) }}
+      {{ if . }}
+        <span class="author-notes" title="{{ . }}">*</span>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}

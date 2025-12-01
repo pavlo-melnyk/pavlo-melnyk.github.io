@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interview | Pavlo Melnyk</title>
+    <link>/tags/interview/</link>
+      <atom:link href="/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    <description>Interview</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu10934838655842282239.png</url>
+      <title>Interview</title>
+      <link>/tags/interview/</link>
+    </image>
+    
+    <item>
+      <title>WASP 10-Year Anniversary Feature</title>
+      <link>/post/wasp-feature/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/post/wasp-feature/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;wasp_feature.png&#34; alt=&#34;WASP feature&#34; style=&#34;width:auto; height:auto;&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;I was delighted to be interviewed and featured in the 
+, where I speak on my experience as a WASP PhD student and my extracurricular activities.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
