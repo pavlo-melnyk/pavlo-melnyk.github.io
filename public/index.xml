@@ -13,6 +13,38 @@
     </image>
     
     <item>
+      <title>Paper accepted at ICLR&#39;26</title>
+      <link>//localhost:1313/post/iclr26/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/iclr26/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;quamo_teaser.png&#34; alt=&#34;QuaMo teaser&#34; style=&#34;width:auto; height:auto;&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+ by Cuong Le, Pavlo Melnyk, Urs Waldmann, Mårten Wadenbäck, and Bastian Wandt has been accepted at ICLR&#39;26!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture</title>
+      <link>//localhost:1313/publication/quamo/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/quamo/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Vision-based 3D human motion capture from videos remains a challenge in computer vision. Traditional 3D pose estimation approaches often ignore the temporal consistency between frames, causing implausible and jittery motion. The emerging field of kinematics-based 3D motion capture addresses these issues by estimating the temporal transitioning between poses instead. A major drawback in current kinematics approaches is their reliance on Euler angles. Despite their simplicity, Euler angles suffer from discontinuity that leads to unstable motion reconstructions, especially in online settings where trajectory refinement is unavailable. Contrarily, quaternions have no discontinuity and can produce continuous transitions between poses. In this paper, we propose QuaMo, a novel Quaternion Motions method using quaternion differential equations (QDE) for human kinematics capture. We utilize the state-space model, an effective system for describing real-time kinematics estimations, with quaternion state and the QDE describing quaternion velocity. The corresponding angular acceleration are computed from a meta-PD controller with a novel acceleration enhancement that adaptively regulates the control signals as the human quickly change to new pose. Unlike previous work, our QDE is solved under the quaternion geometric constraints that results in more accurate estimations. Experimental results show that our novel formulation of the QDE with acceleration enhancement accurately estimates 3D human kinematics with no discontinuity and minimal implausible artifact. QuaMo outperforms comparable state-of-the-art methods on multiple datasets, namely Human3.6M, Fit3D, SportsPose and a subset of AIST. The code is available at 
+. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the Role of Rotation Equivariance in Monocular 3D Human Pose Estimation</title>
+      <link>//localhost:1313/publication/ontheroleofrotequiformhpe/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ontheroleofrotequiformhpe/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Estimating 3D from 2D is one of the central tasks in computer vision. In this work, we consider the monocular setting, i.e. single-view input, for 3D human pose estimation (HPE). Here, the task is to predict a 3D point set of human skeletal joints from a single 2D input image. While by definition this is an ill-posed problem, recent work has presented methods that solve it with up to several-centimetre error. Typically, these methods employ a two-step approach, where the first step is to detect the 2D skeletal joints in the input image, followed by the step of 2D-to-3D lifting. We find that common lifting models fail when encountering a rotated input. We argue that learning a single human pose along with its in-plane rotations is considerably easier and more geometrically grounded than directly learning a point-to-point mapping. Furthermore, our intuition is that endowing the model with the notion of rotation equivariance without explicitly constraining its parameter space should lead to a more straightforward learning process than one with equivariance by design. Utilising the common HPE benchmarks, we confirm that the 2D rotation equivariance per se improves the model performance on human poses akin to rotations in the image plane, and can be efficiently and straightforwardly learned by augmentation, outperforming state-of-the-art equivariant-by-design methods. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Equivariant Modelling for Catalysis on 2D MXenes</title>
       <link>//localhost:1313/publication/equimodelmxene/</link>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
@@ -30,7 +62,7 @@
 &lt;img src=&#34;wasp_feature.png&#34; alt=&#34;WASP feature&#34; style=&#34;width:auto; height:auto;&#34; /&gt;
 &lt;/p&gt;
 &lt;p&gt;I was delighted to be interviewed and featured in the 
-, where I speak on my experience as a WASP PhD student and my extracurricular activities.&lt;/p&gt;
+, where I discuss my research as a postdoc and former WASP PhD student, along with my extracurricular activities.&lt;/p&gt;
 </description>
     </item>
     

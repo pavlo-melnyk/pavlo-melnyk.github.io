@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human Kinematics | Pavlo Melnyk</title>
+    <link>//localhost:1313/tags/human-kinematics/</link>
+      <atom:link href="//localhost:1313/tags/human-kinematics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Human Kinematics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
+      <title>Human Kinematics</title>
+      <link>//localhost:1313/tags/human-kinematics/</link>
+    </image>
+    
+    <item>
+      <title>QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture</title>
+      <link>//localhost:1313/publication/quamo/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/quamo/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Vision-based 3D human motion capture from videos remains a challenge in computer vision. Traditional 3D pose estimation approaches often ignore the temporal consistency between frames, causing implausible and jittery motion. The emerging field of kinematics-based 3D motion capture addresses these issues by estimating the temporal transitioning between poses instead. A major drawback in current kinematics approaches is their reliance on Euler angles. Despite their simplicity, Euler angles suffer from discontinuity that leads to unstable motion reconstructions, especially in online settings where trajectory refinement is unavailable. Contrarily, quaternions have no discontinuity and can produce continuous transitions between poses. In this paper, we propose QuaMo, a novel Quaternion Motions method using quaternion differential equations (QDE) for human kinematics capture. We utilize the state-space model, an effective system for describing real-time kinematics estimations, with quaternion state and the QDE describing quaternion velocity. The corresponding angular acceleration are computed from a meta-PD controller with a novel acceleration enhancement that adaptively regulates the control signals as the human quickly change to new pose. Unlike previous work, our QDE is solved under the quaternion geometric constraints that results in more accurate estimations. Experimental results show that our novel formulation of the QDE with acceleration enhancement accurately estimates 3D human kinematics with no discontinuity and minimal implausible artifact. QuaMo outperforms comparable state-of-the-art methods on multiple datasets, namely Human3.6M, Fit3D, SportsPose and a subset of AIST. The code is available at 
+. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

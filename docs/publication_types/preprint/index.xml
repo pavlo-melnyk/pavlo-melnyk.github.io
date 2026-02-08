@@ -5,12 +5,21 @@
     <link>/publication_types/preprint/</link>
       <atom:link href="/publication_types/preprint/index.xml" rel="self" type="application/rss+xml" />
     <description>Preprint</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu10934838655842282239.png</url>
       <title>Preprint</title>
       <link>/publication_types/preprint/</link>
     </image>
+    
+    <item>
+      <title>On the Role of Rotation Equivariance in Monocular 3D Human Pose Estimation</title>
+      <link>/publication/ontheroleofrotequiformhpe/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/ontheroleofrotequiformhpe/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Estimating 3D from 2D is one of the central tasks in computer vision. In this work, we consider the monocular setting, i.e. single-view input, for 3D human pose estimation (HPE). Here, the task is to predict a 3D point set of human skeletal joints from a single 2D input image. While by definition this is an ill-posed problem, recent work has presented methods that solve it with up to several-centimetre error. Typically, these methods employ a two-step approach, where the first step is to detect the 2D skeletal joints in the input image, followed by the step of 2D-to-3D lifting. We find that common lifting models fail when encountering a rotated input. We argue that learning a single human pose along with its in-plane rotations is considerably easier and more geometrically grounded than directly learning a point-to-point mapping. Furthermore, our intuition is that endowing the model with the notion of rotation equivariance without explicitly constraining its parameter space should lead to a more straightforward learning process than one with equivariance by design. Utilising the common HPE benchmarks, we confirm that the 2D rotation equivariance per se improves the model performance on human poses akin to rotations in the image plane, and can be efficiently and straightforwardly learned by augmentation, outperforming state-of-the-art equivariant-by-design methods. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning to Augment: Hallucinating Data for Domain Generalized Segmentation</title>
