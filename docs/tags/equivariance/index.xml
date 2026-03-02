@@ -5,12 +5,21 @@
     <link>/tags/equivariance/</link>
       <atom:link href="/tags/equivariance/index.xml" rel="self" type="application/rss+xml" />
     <description>Equivariance</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Mar 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu10934838655842282239.png</url>
       <title>Equivariance</title>
       <link>/tags/equivariance/</link>
     </image>
+    
+    <item>
+      <title>E$(n)$-Equivariant Spherical Decision Surfaces</title>
+      <link>/publication/enequispheric/</link>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>/publication/enequispheric/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; We present a constructive derivation of exactly E(n)-equivariant spherical decision surfaces by extending prior O(n)-equivariant hypersphere neurons to include translations. To achieve this, we present a decomposition of the features of the O(n)-equivariant neurons and provide explicit representations for translation and E(n)-transformations to fulfil the respective equivariance constraints. The resulting decision surfaces are exactly E(n)-equivariant without input centring or explicit pairwise differences, and admit explicit closed-form matrix representations. In addition, we numerically verify the correctness of the derivations and perform a downstream check of the resulting geometric primitives. &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>On the Role of Rotation Equivariance in Monocular 3D Human Pose Estimation</title>
