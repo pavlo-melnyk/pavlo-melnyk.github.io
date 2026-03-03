@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 28, 2026 --><html lang="en-us" dir="ltr"
+<!-- Last Published: March 3, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -268,80 +268,85 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
   
   
   
@@ -797,6 +802,34 @@
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
          Vision-based 3D human motion capture from videos remains a challenge in computer vision. Traditional 3D pose estimation approaches often ignore the temporal consistency between frames, causing implausible and jittery motion. The emerging field of kinematics-based 3D motion capture addresses these issues by estimating the temporal transitioning between poses instead. A major drawback in current kinematics approaches is their reliance on Euler angles. Despite their simplicity, Euler angles suffer from discontinuity that leads to unstable motion reconstructions, especially in online settings where trajectory refinement is unavailable. Contrarily, quaternions have no discontinuity and can produce continuous transitions between poses. In this paper, we propose QuaMo, a novel Quaternion Motions method using quaternion differential equations (QDE) for human kinematics capture. We utilize the state-space model, an effective system for describing real-time kinematics estimations, with quaternion state and the QDE describing quaternion velocity. The corresponding angular acceleration are computed from a meta-PD controller with a novel acceleration enhancement that adaptively regulates the control signals as the human quickly change to new pose. Unlike previous work, our QDE is solved under the quaternion geometric constraints that results in more accurate estimations. Experimental results show that our novel formulation of the QDE with acceleration enhancement accurately estimates 3D human kinematics with no discontinuity and minimal implausible artifact. QuaMo outperforms comparable state-of-the-art methods on multiple datasets, namely Human3.6M, Fit3D, SportsPose and a subset of AIST. The code is available at https://github.com/cuongle1206/QuaMo. </p>
       <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jan 26, 2026</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/publication/flowmatchinghpe/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/publication/flowmatchinghpe/featured_hu13252675527962047716.webp" height="655" width="655" alt="Flow Matching for Probabilistic Monocular 3D Human Pose Estimation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Flow Matching for Probabilistic Monocular 3D Human Pose Estimation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+         Recovering 3D human poses from a monocular camera view is a highly ill-posed problem due to the depth ambiguity. Earlier studies on 3D human pose lifting from 2D often contain incorrect-yet-overconfident 3D estimations. To mitigate the problem, emerging probabilistic approaches treat the 3D estimations as a distribution, taking into account the uncertainty measurement of the poses. Falling in a similar category, we proposed FMPose, a probabilistic 3D human pose estimation method based on the flow matching generative approach. Conditioned on the 2D cues, the flow matching scheme learns the optimal transport from a simple source distribution to the plausible 3D human pose distribution via continuous normalizing flows. The 2D lifting condition is modeled via graph convolutional networks, leveraging the learnable connections between human body joints as the graph structure for feature aggregation. Compared to diffusion-based methods, the FMPose with optimal transport produces faster and more accurate 3D pose generations. Experimental results show major improvements of our FMPose over current state-of-the-art methods on three common benchmarks for 3D human pose estimation, namely Human3.6M, MPI-INF-3DHP and 3DPW. </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jan 23, 2026</p>
     </div>
   </div>
 </a>
