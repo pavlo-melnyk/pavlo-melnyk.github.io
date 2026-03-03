@@ -381,6 +381,7 @@
       "py-2.5",
       "py-5",
       "relative",
+      "research-thesis",
       "resume-biography",
       "rounded",
       "rounded-full",
@@ -466,6 +467,7 @@
       "z-30"
     ],
     "ids": [
+      "de-structura",
       "hide-button",
       "moon",
       "nav-menu",
@@ -484,8 +486,7 @@
       "show-button",
       "site-header",
       "sun",
-      "top",
-      "welcome"
+      "top"
     ]
   }
 }

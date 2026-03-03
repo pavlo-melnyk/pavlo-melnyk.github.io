@@ -20,4 +20,4 @@ tags:
 <img src="defense.jpg" alt="PhD defense" style="width:auto; height:auto;" />
 </p>
 
-I successfully defended my [PhD thesis](/./phd_thesis/) at Linköping University on September 27, 2024. It was an honor to have [Prof. Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/) from the University of Pennsylvania serve as my opponent during the defense. With this milestone, I've earned my doctorate in Electrical Engineering, with a specialization in Computer Vision.
+I successfully defended my [PhD thesis](/./phd_thesis/) at Linköping University on September 27, 2024. It was an honor to have [Prof. Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/) from the University of Pennsylvania serve as my opponent during the defense. With this milestone, I've earned my doctorate in Electrical Engineering, with a specialisation in Computer Vision.
