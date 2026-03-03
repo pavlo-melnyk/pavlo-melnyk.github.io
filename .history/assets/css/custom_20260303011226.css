@@ -184,6 +184,7 @@
   ruby-position: under;   /* default in most browsers, set explicitly */
 }
 
+
 /* Global preference */
 .portrait-title ruby,
 .portrait-title rt {
@@ -196,4 +197,3 @@
   .portrait-title rt {
     ruby-position: under !important;
   }
-}
