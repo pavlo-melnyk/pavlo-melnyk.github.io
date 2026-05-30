@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/academic/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tags/flow-matching/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/publication/flowmatchinghpe/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tags/human-pose/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/publication_types/journal-paper/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/post/tmlr26/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/publication_types/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/publication/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>//localhost:1313/publication/enequispheric/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -14,31 +54,11 @@
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication_types/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/publication/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/tags/spherical-neurons/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/publication_types/workshop-paper/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tags/academic/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -54,10 +74,6 @@
     <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/human-pose/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/post/iclr26/</loc>
     <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -70,19 +86,11 @@
     <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/flow-matching/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/publication/flowmatchinghpe/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/publication/ontheroleofrotequiformhpe/</loc>
+    <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/publication_types/preprint/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/publication/ontheroleofrotequiformhpe/</loc>
     <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -203,10 +211,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/handwritten-character-recognition/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/publication_types/journal-paper/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

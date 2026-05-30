@@ -5,12 +5,25 @@
     <link>//localhost:1313/tags/academic/</link>
       <atom:link href="//localhost:1313/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-uk</language><lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-uk</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>//localhost:1313/media/icon_hu10934838655842282239.png</url>
       <title>Academic</title>
       <link>//localhost:1313/tags/academic/</link>
     </image>
+    
+    <item>
+      <title>Paper accepted at TMLR</title>
+      <link>//localhost:1313/post/tmlr26/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/tmlr26/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;fmpose_teaser.png&#34; alt=&#34;FMPose teaser&#34; style=&#34;width:auto; height:auto;&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+ by Cuong Le, Pavlo Melnyk, Bastian Wandt, and Mårten Wadenbäck has been accepted at TMLR!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Paper accepted at GRaM @ ICLR&#39;26 (PMLR track)</title>
