@@ -13,6 +13,16 @@
     </image>
     
     <item>
+      <title>Benchmark Dataset for Catalysis on 2D MXenes</title>
+      <link>//localhost:1313/publication/benchmarkmxenes/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/benchmarkmxenes/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;display:none;&#34;&gt; Merging first-principles calculations with machine learning (ML), we aim to accelerate the exploration of catalytic behaviour in novel materials. We focus on two-dimensional (2D) Ti2CTy MXenes, whose versatile surface chemistry makes them particularly compelling candidates for catalysis. Resolving their composition and structure under realistic conditions exceeds the reach of standard density functional theory (DFT) due to computational cost.&lt;br&gt;&lt;/br&gt;To address this challenge, we generate a comprehensive dataset of 50,000 DFT calculations for training and 10,000 for testing, encompassing both Ti2CTy MXene configurations and molecular systems, along with an additional test dataset with 1000 genuinely new, larger systems to investigate how well models generalise. We train and validate widely used and competitive machine learning interatomic potentials (MLIP) models, EquiformerV2, MACE, MatRIS, UPET, and MatRIS that accurately predict atomic forces and formation energies — quantities that DFT must repeatedly compute for structural and catalytic investigations — for these 2D materials.&lt;br&gt;&lt;/br&gt;This combined DFT–ML framework achieves computational acceleration of the order ∼1 − 4 · 103 (on a CPU) while maintaining desired-level accuracy (∼±10 meV/A for forces and ∼±1 meV for per-atom energies), paving the way for more efficient investigations of MXene catalytic behaviour. Moreover, we perform an extensive qualitative evaluation of the trained models, showcasing the importance of the comprehensive simulation-based comparison beyond the benchmark metrics. The dataset and the trained models with the code are available at 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Flow Matching for Probabilistic Monocular 3D Human Pose Estimation</title>
       <link>//localhost:1313/publication/flowmatchinghpe/</link>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
@@ -31,7 +41,7 @@
 &lt;img src=&#34;fmpose_teaser.png&#34; alt=&#34;FMPose teaser&#34; style=&#34;width:auto; height:auto;&#34; /&gt;
 &lt;/p&gt;
 &lt;p&gt;
- by Cuong Le, Pavlo Melnyk, Bastian Wandt, and Mårten Wadenbäck has been accepted at TMLR!&lt;/p&gt;
+ by Cuong Le, Pavlo Melnyk, Bastian Wandt, and Mårten Wadenbäck has been published in Transactions on Machine Learning Research!&lt;/p&gt;
 </description>
     </item>
     

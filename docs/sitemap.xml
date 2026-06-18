@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/2d-mxenes/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/benchmarkmxenes/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/catalysis/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/equivariance/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/materials-science/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/preprint/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/tags/academic/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,23 +66,7 @@
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/publication/enequispheric/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/equivariance/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -90,23 +110,7 @@
     <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/publication_types/preprint/</loc>
-    <lastmod>2026-02-08T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/2d-mxenes/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/catalysis/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/publication/equimodelmxene/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/materials-science/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
