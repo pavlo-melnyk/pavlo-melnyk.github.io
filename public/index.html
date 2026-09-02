@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: July 7, 2026 --><html lang="en-uk" dir="ltr"
+<!-- Last Published: August 31, 2026 --><html lang="en-uk" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -1504,7 +1504,7 @@ Further details can be found in my <a href="/uploads/cv.pdf" target="_blank" cla
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="/publication/ontheroleofrotequiformhpe/" >
-         Estimating 3D from 2D is one of the central tasks in computer vision. In this work, we consider the monocular setting, i.e. single-view input, for 3D human pose estimation (HPE), where the goal is to predict a 3D point set of human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We address this by considering different approaches to incorporating rotation equivariance, including explicit equivariant architectures and standard models. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. This significantly improves robustness to rotations and, in this setting, outperforms methods that are fully equivariant by design, while maintaining a lower computational cost. </a></p>
+         We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30% across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15% lower error than methods that are fully equivariant by design, while providing up to 37$\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model. </a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
@@ -2314,7 +2314,7 @@ Further details can be found in my <a href="/uploads/cv.pdf" target="_blank" cla
   </span>
   (2026).
   <a href="/publication/enequispheric/" class="underline">E$(n)$-Equivariant Spherical Decision Surfaces</a>.
-  <em>ICLR 2026 Workshop GRaM</em>.
+  <em>ICLR 2026 Workshop GRaM, PMLR</em>.
   
 
   
@@ -2380,6 +2380,21 @@ Further details can be found in my <a href="/uploads/cv.pdf" target="_blank" cla
 
 
 
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://proceedings.mlr.press/v326/melnyk26a.html" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    proceedings</a>
 
 
   </div>

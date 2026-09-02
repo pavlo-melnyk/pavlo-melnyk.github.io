@@ -15,7 +15,7 @@ author_notes:
 
 
 date: '2026-03-02T10:00:00Z'
-modified: 2026-03-02
+modified: 2026-09-02
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,8 +27,8 @@ publishDate: '2026-03-02T11:00:00Z'
 publication_types: ['Workshop paper']
 
 # Publication name and optional abbreviated publication name.
-publication: ICLR 2026 Workshop on Geometry-grounded Representation Learning and Generative Modeling
-publication_short: "*ICLR 2026 Workshop GRaM*"
+publication: ICLR 2026 Workshop on Geometry-grounded Representation Learning and Generative Modeling, PMLR
+publication_short: "*ICLR 2026 Workshop GRaM, PMLR*"
 
 
 abstract: We present a constructive derivation of exactly E(n)-equivariant spherical decision surfaces by extending prior O(n)-equivariant hypersphere neurons to include translations. To achieve this, we present a decomposition of the features of the O(n)-equivariant neurons and provide explicit representations for translation and E(n)-transformations to fulfil the respective equivariance constraints. The resulting decision surfaces are exactly E(n)-equivariant without input centring or explicit pairwise differences, and admit explicit closed-form matrix representations. In addition, we numerically verify the correctness of the derivations and perform a downstream check of the resulting geometric primitives.
@@ -48,9 +48,9 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-# links:
-# - name: "arXiv"
-#   url: ""
+links:
+- name: "proceedings"
+  url: "https://proceedings.mlr.press/v326/melnyk26a.html"
 
 url_pdf: 'https://openreview.net/pdf?id=Zx1Xvvflb5'
 url_code: 'https://github.com/pavlo-melnyk/equivariant-hyperspheres/tree/main/notebooks/en_equiv_spherical_decision_surfaces'
@@ -58,7 +58,7 @@ url_dataset:
 url_poster: 'poster.png'
 url_project: ''
 url_slides: ''
-url_source: 
+url_source: ''
 url_video: 
 
 # Featured image
