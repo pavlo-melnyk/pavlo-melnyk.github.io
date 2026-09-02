@@ -71,5 +71,19 @@
 </description>
     </item>
     
+    <item>
+      <title>&#34;Why Pursue a PhD?&#34;</title>
+      <link>//localhost:1313/post/why-pursue-a-phd/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/why-pursue-a-phd/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;liu_feature.png&#34; alt=&#34;LiU magazine feature&#34; style=&#34;max-width:400px; width:auto; height:auto;&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;I was featured in a Linköping University article on doctoral education, discussing my research in geometric deep learning, teaching, and experiences as a PhD student.&lt;/p&gt;
+&lt;p&gt;Read the 
+.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

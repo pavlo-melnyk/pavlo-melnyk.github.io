@@ -59,7 +59,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/post/</loc>
-    <lastmod>2026-05-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/post/tmlr26/</loc>
@@ -115,11 +115,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/interview/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/phd/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/post/wasp-feature/</loc>
@@ -196,6 +196,10 @@
   </url><url>
     <loc>//localhost:1313/publication/steerneur/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/post/why-pursue-a-phd/</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/conformal-embedding/</loc>
