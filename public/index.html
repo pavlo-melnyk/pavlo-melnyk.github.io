@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 10, 2026 --><html lang="en-uk" dir="ltr"
+<!-- Last Published: November 25, 2026 --><html lang="en-uk" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -1487,7 +1487,7 @@ Further details can be found in my <a href="/uploads/cv.pdf" target="_blank" cla
            class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="540" loading="lazy" src="/publication/ontheroleofrotequiformhpe/featured_hu2480631396816448336.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/publication/ontheroleofrotequiformhpe/featured_hu15057141149323421677.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="960"></a>
   </div>
@@ -1509,7 +1509,9 @@ Further details can be found in my <a href="/uploads/cv.pdf" target="_blank" cla
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="/publication/ontheroleofrotequiformhpe/" >
-         We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30% across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15% lower error than methods that are fully equivariant by design, while providing up to 37$\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model. </a></p>
+         We consider monocular 3D human pose estimation (HPE), focusing on lifting detected 2D keypoints to 3D skeletal joints. Despite their success, we find that commonly used lifting models, including a state-of-the-art probabilistic method, exhibit substantial performance degradation under in-plane rotations. We systematically study SO(2) rotation equivariance and robustness across lifting models, comparing approaches that learn approximate equivariance via data augmentation with those that enforce exact equivariance via architectural constraints or pose canonicalisation. We investigate their effects on prediction accuracy, rotational robustness, cross-dataset generalisation, and computational efficiency.
+Using established HPE benchmarks, we show that rotation-based augmentation applied jointly to input and output poses substantially improves accuracy on rotated poses, reducing error by up to 72% with little loss of original-pose accuracy. These improvements also extend to probabilistic lifting and real-world sequences containing natural full-body rotations. While augmented models can outperform specialised equivariant architectures at considerably lower inference cost, comparisons using canonicalisation-based versions of the same lifting models demonstrate that exact equivariance need not compromise prediction accuracy.
+Direct equivariance diagnostics further show that rotational robustness does not imply exact equivariance. Overall, the relative benefits of learning or enforcing equivariance depend on the lifting backbone and the mechanism used to achieve it.</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
@@ -2495,6 +2497,21 @@ Further details can be found in my <a href="/uploads/cv.pdf" target="_blank" cla
   <a class="hb-attachment-link hb-attachment-small" href="https://proceedings.mlr.press/v326/melnyk26a.html" target="_blank" rel="noopener">
     <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     proceedings</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2611.32815" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
 
 
   </div>

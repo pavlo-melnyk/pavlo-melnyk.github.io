@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 10, 2026 --><html lang="en-uk" dir="ltr"
+<!-- Last Published: November 25, 2026 --><html lang="en-uk" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -41,7 +41,7 @@
   
     
   
-  <meta name="description" content="We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30%  across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15\% lower error than methods that are fully equivariant by design, while providing up to 37$\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model." />
+  <meta name="description" content="We consider monocular 3D human pose estimation (HPE), focusing on lifting detected 2D keypoints to 3D skeletal joints. Despite their success, we find that commonly used lifting models, including a state-of-the-art probabilistic method, exhibit substantial performance degradation under in-plane rotations. We systematically study SO(2) rotation equivariance and robustness across lifting models, comparing approaches that learn approximate equivariance via data augmentation with those that enforce exact equivariance via architectural constraints or pose canonicalisation. We investigate their effects on prediction accuracy, rotational robustness, cross-dataset generalisation, and computational efficiency.&lt;br&gt;&lt;/br&gt;Using established HPE benchmarks, we show that rotation-based augmentation applied jointly to input and output poses substantially improves accuracy on rotated poses, reducing error by up to 72\% with little loss of original-pose accuracy. These improvements also extend to probabilistic lifting and real-world sequences containing natural full-body rotations. While augmented models can outperform specialised equivariant architectures at considerably lower inference cost, comparisons using canonicalisation-based versions of the same lifting models demonstrate that exact equivariance need not compromise prediction accuracy.&lt;br&gt;&lt;/br&gt;Direct equivariance diagnostics further show that rotational robustness does not imply exact equivariance. Overall, the relative benefits of learning or enforcing equivariance depend on the lifting backbone and the mechanism used to achieve it." />
 
   
   <link rel="alternate" hreflang="en-uk" href="/publication/ontheroleofrotequiformhpe/" />
@@ -188,7 +188,7 @@
   <meta property="og:site_name" content="Pavlo Melnyk" />
   <meta property="og:url" content="/publication/ontheroleofrotequiformhpe/" />
   <meta property="og:title" content="On the Role of Rotation Equivariance in Monocular 2D-to-3D Human Pose Lifting | Pavlo Melnyk" />
-  <meta property="og:description" content="We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30%  across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15\% lower error than methods that are fully equivariant by design, while providing up to 37$\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model." /><meta property="og:image" content="/publication/ontheroleofrotequiformhpe/featured.png" />
+  <meta property="og:description" content="We consider monocular 3D human pose estimation (HPE), focusing on lifting detected 2D keypoints to 3D skeletal joints. Despite their success, we find that commonly used lifting models, including a state-of-the-art probabilistic method, exhibit substantial performance degradation under in-plane rotations. We systematically study SO(2) rotation equivariance and robustness across lifting models, comparing approaches that learn approximate equivariance via data augmentation with those that enforce exact equivariance via architectural constraints or pose canonicalisation. We investigate their effects on prediction accuracy, rotational robustness, cross-dataset generalisation, and computational efficiency.&lt;br&gt;&lt;/br&gt;Using established HPE benchmarks, we show that rotation-based augmentation applied jointly to input and output poses substantially improves accuracy on rotated poses, reducing error by up to 72\% with little loss of original-pose accuracy. These improvements also extend to probabilistic lifting and real-world sequences containing natural full-body rotations. While augmented models can outperform specialised equivariant architectures at considerably lower inference cost, comparisons using canonicalisation-based versions of the same lifting models demonstrate that exact equivariance need not compromise prediction accuracy.&lt;br&gt;&lt;/br&gt;Direct equivariance diagnostics further show that rotational robustness does not imply exact equivariance. Overall, the relative benefits of learning or enforcing equivariance depend on the lifting backbone and the mechanism used to achieve it." /><meta property="og:image" content="/publication/ontheroleofrotequiformhpe/featured.png" />
     <meta property="twitter:image" content="/publication/ontheroleofrotequiformhpe/featured.png" /><meta property="og:locale" content="en-uk" />
   
     
@@ -197,7 +197,7 @@
         content="2026-02-08T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2026-09-02T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2026-11-25T00:00:00&#43;00:00">
   
 
   
@@ -228,7 +228,7 @@
   ],
   
   "datePublished": "2026-02-08T00:00:00Z",
-  "dateModified": "2026-09-02T00:00:00Z",
+  "dateModified": "2026-11-25T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -243,7 +243,7 @@
       "url": "/media/icon_hu16246739000622577001.png"
     }
   },
-  "description": "We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30%  across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15\\% lower error than methods that are fully equivariant by design, while providing up to 37$\\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model."
+  "description": "We consider monocular 3D human pose estimation (HPE), focusing on lifting detected 2D keypoints to 3D skeletal joints. Despite their success, we find that commonly used lifting models, including a state-of-the-art probabilistic method, exhibit substantial performance degradation under in-plane rotations. We systematically study SO(2) rotation equivariance and robustness across lifting models, comparing approaches that learn approximate equivariance via data augmentation with those that enforce exact equivariance via architectural constraints or pose canonicalisation. We investigate their effects on prediction accuracy, rotational robustness, cross-dataset generalisation, and computational efficiency.\u003cbr\u003e\u003c/br\u003eUsing established HPE benchmarks, we show that rotation-based augmentation applied jointly to input and output poses substantially improves accuracy on rotated poses, reducing error by up to 72\\% with little loss of original-pose accuracy. These improvements also extend to probabilistic lifting and real-world sequences containing natural full-body rotations. While augmented models can outperform specialised equivariant architectures at considerably lower inference cost, comparisons using canonicalisation-based versions of the same lifting models demonstrate that exact equivariance need not compromise prediction accuracy.\u003cbr\u003e\u003c/br\u003eDirect equivariance diagnostics further show that rotational robustness does not imply exact equivariance. Overall, the relative benefits of learning or enforcing equivariance depend on the lifting backbone and the mechanism used to achieve it."
 }
 </script>
 
@@ -1290,9 +1290,9 @@
       
       
       
-      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 1500px; max-height: 425px;">
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 1250px; max-height: 1442px;">
         <div style="position: relative">
-          <img src="/publication/ontheroleofrotequiformhpe/featured_hu17116180360957290002.webp" width="1500" height="425" alt="" class="featured-image">
+          <img src="/publication/ontheroleofrotequiformhpe/featured_hu16552306708089731637.webp" width="1250" height="1442" alt="" class="featured-image">
           
         </div>
       </div>
@@ -1304,7 +1304,7 @@
 
         
           <div class="font-bold text-2xl">Abstract</div>
-          <div>We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30%  across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15% lower error than methods that are fully equivariant by design, while providing up to 37$\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model.</div>
+          <div>We consider monocular 3D human pose estimation (HPE), focusing on lifting detected 2D keypoints to 3D skeletal joints. Despite their success, we find that commonly used lifting models, including a state-of-the-art probabilistic method, exhibit substantial performance degradation under in-plane rotations. We systematically study SO(2) rotation equivariance and robustness across lifting models, comparing approaches that learn approximate equivariance via data augmentation with those that enforce exact equivariance via architectural constraints or pose canonicalisation. We investigate their effects on prediction accuracy, rotational robustness, cross-dataset generalisation, and computational efficiency.<br></br>Using established HPE benchmarks, we show that rotation-based augmentation applied jointly to input and output poses substantially improves accuracy on rotated poses, reducing error by up to 72% with little loss of original-pose accuracy. These improvements also extend to probabilistic lifting and real-world sequences containing natural full-body rotations. While augmented models can outperform specialised equivariant architectures at considerably lower inference cost, comparisons using canonicalisation-based versions of the same lifting models demonstrate that exact equivariance need not compromise prediction accuracy.<br></br>Direct equivariance diagnostics further show that rotational robustness does not imply exact equivariance. Overall, the relative benefits of learning or enforcing equivariance depend on the lifting backbone and the mechanism used to achieve it.</div>
         
 
         
@@ -1332,14 +1332,14 @@
       
 
       <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-        <p><span style="display:none;"> We consider monocular 3D human pose estimation (HPE), where the goal is to predict 3D human skeletal joints from a single 2D image, typically via 2D keypoint detection followed by 2D-to-3D lifting. Despite their success, we find that current lifting models exhibit strong performance degradation under rotations. We systematically study rotation equivariance across lifting architectures with increasing degrees of equivariant inductive bias, and investigate whether equivariance should be enforced by architectural design or learned from data, given the inherent ambiguity of monocular 2D-to-3D lifting. Utilising common HPE benchmarks, we demonstrate that rotation equivariance can be effectively learned via rotation-based data augmentation applied jointly to input and output poses. Compared with non-augmented models, this reduces error on rotated poses by over 30%  across the benchmarks, with reductions of up to 72%. Moreover, augmentation-based models achieve up to 15% lower error than methods that are fully equivariant by design, while providing up to 37$\times$ faster inference. We further show that these findings generalise to real-world human pose sequences involving full-body rotations and to a state-of-the-art HPE model. </span></p>
+        <p><span style="display:none;"> We consider monocular 3D human pose estimation (HPE), focusing on lifting detected 2D keypoints to 3D skeletal joints. Despite their success, we find that commonly used lifting models, including a state-of-the-art probabilistic method, exhibit substantial performance degradation under in-plane rotations. We systematically study SO(2) rotation equivariance and robustness across lifting models, comparing approaches that learn approximate equivariance via data augmentation with those that enforce exact equivariance via architectural constraints or pose canonicalisation. We investigate their effects on prediction accuracy, rotational robustness, cross-dataset generalisation, and computational efficiency.<br></br>Using established HPE benchmarks, we show that rotation-based augmentation applied jointly to input and output poses substantially improves accuracy on rotated poses, reducing error by up to 72% with little loss of original-pose accuracy. These improvements also extend to probabilistic lifting and real-world sequences containing natural full-body rotations. While augmented models can outperform specialised equivariant architectures at considerably lower inference cost, comparisons using canonicalisation-based versions of the same lifting models demonstrate that exact equivariance need not compromise prediction accuracy.<br></br>Direct equivariance diagnostics further show that rotational robustness does not imply exact equivariance. Overall, the relative benefits of learning or enforcing equivariance depend on the lifting backbone and the mechanism used to achieve it.</span></p>
 
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2026-09-02T00:00:00.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2026-11-25T00:00:00.000Z">
     <span>Last updated on</span>
-    Sep 2, 2026</time>
+    Nov 25, 2026</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         

@@ -15,7 +15,7 @@ author_notes:
 
 
 date: '2026-03-02T10:00:00Z'
-modified: 2026-09-02
+modified: 2026-11-25
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -51,6 +51,9 @@ featured: true
 links:
 - name: "proceedings"
   url: "https://proceedings.mlr.press/v326/melnyk26a.html"
+
+- name: "arXiv"
+  url: "https://arxiv.org/abs/2611.32815"
 
 url_pdf: 'https://openreview.net/pdf?id=Zx1Xvvflb5'
 url_code: 'https://github.com/pavlo-melnyk/equivariant-hyperspheres/tree/main/notebooks/en_equiv_spherical_decision_surfaces'

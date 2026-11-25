@@ -1,7 +1,7 @@
 ---
 title: 'CV'
 date: 2024-10-20
-modified: 2026-06-18
+modified: 2026-11-25
 share: false
 ---
 
